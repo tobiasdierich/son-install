@@ -15,6 +15,7 @@
       CATALOGUES_URL: http://son-catalogue-repos:4011/catalogues/api/v2
       PACKAGE_MANAGEMENT_URL: http://son-gtkpkg:5100
       SERVICE_MANAGEMENT_URL: http://son-gtksrv:5300
+      CLOUD_SERVICE_MANAGEMENT_URL: http://son-gtkcsrv:5250
       FUNCTION_MANAGEMENT_URL: http://son-gtkfnct:5500
       VIM_MANAGEMENT_URL: http://son-gtkvim:5700 
       RECORD_MANAGEMENT_URL: http://son-gtkrec:5800

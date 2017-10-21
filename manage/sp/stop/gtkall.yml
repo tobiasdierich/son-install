@@ -30,6 +30,12 @@
       state: stopped
   - wait_for: host=0.0.0.0 port=5300 timeout=30 delay=10 state=drained
 
+  - name: GATEKEEPER CLOUD SERVICES - stopping
+    docker_container:
+      name: son-gtkcsrv
+      state: stopped
+  - wait_for: host=0.0.0.0 port=5250 timeout=30 delay=10 state=drained
+
   - name: GATEKEEPER FUNCTIONS - stopping
     docker_container:
       name: son-gtkfnct

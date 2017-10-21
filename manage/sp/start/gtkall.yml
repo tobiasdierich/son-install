@@ -26,6 +26,11 @@
       name: son-gtksrv
       state: started
 
+  - name: GATEKEEPER CLOUD SERVICES - starting
+    docker_container:
+      name: son-gtkcsrv
+      state: started
+
   - name: GATEKEEPER FUNCTIONS - starting
     docker_container:
       name: son-gtkfnct

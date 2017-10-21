@@ -5,6 +5,7 @@
 - include: gtk/val.yml
 - include: gtk/pkg.yml
 - include: gtk/srv.yml
+- include: gtk/csrv.yml
 - include: gtk/fnct.yml
 - include: gtk/rec.yml
 - include: gtk/vim.yml

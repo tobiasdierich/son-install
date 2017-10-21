@@ -25,6 +25,13 @@
 
   - wait_for: host=0.0.0.0 port=5300 timeout=120 delay=10 state=drained
 
+  - name: GATEKEEPER CLOUD SERVICES - removing Docker container
+    docker_container:
+      name: son-gtkcsrv
+      state: absent
+
+  - wait_for: host=0.0.0.0 port=5250 timeout=120 delay=10 state=drained
+
   - name: GATEKEEPER GUI - removing Docker container
     docker_container:
       name: son-gui
