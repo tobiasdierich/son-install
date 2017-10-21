@@ -9,7 +9,7 @@
   - name: GATEKEEPER GUI - re-starting Docker container
     docker_container:
       name: son-gui
-      image: sonatanfv/son-gui
+      image: tdierich/son-gui
       state: started
       restart: yes
       restart_policy: "unless-stopped"

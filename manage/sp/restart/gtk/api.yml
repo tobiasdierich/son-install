@@ -9,7 +9,7 @@
   - name: re-starting GATEKEEPER API (Docker containers)
     docker_container:
       name: son-gtkapi
-      image: sonatanfv/son-gtkapi
+      image: tdierich/son-gtkapi
       state: started
       restart: yes
       restart_policy: "unless-stopped"

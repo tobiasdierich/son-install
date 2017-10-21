@@ -9,7 +9,7 @@
   - name: GATEKEEPER SERVICES - re-starting Docker containers
     docker_container:
       name: son-gtksrv
-      image: sonatanfv/son-gtksrv
+      image: tdierich/son-gtksrv
       state: started
       restart: yes
       restart_policy: "unless-stopped"
