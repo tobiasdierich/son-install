@@ -3,7 +3,7 @@
 - name: MANO Placement Plugin (Docker container)
   docker_container:
     name: placementplugin
-    image: "tdierich/placementplugin:{{ sp_ver }}"
+    image: "tdierich/placementplugin"
     env:
       broker_host: amqp://guest:guest@son-broker:5672/%2F
     restart_policy: "always"

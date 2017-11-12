@@ -13,7 +13,7 @@
 - name: GATEKEEPER CLOUD SERVICES - running Docker containers
   docker_container:
     name: son-gtkcsrv
-    image: "tdierich/son-gtkcsrv:{{ sp_ver }}"
+    image: "tdierich/son-gtkcsrv"
     env:
       CATALOGUES_URL: http://son-catalogue-repos:4011/catalogues/api/v2
       RACK_ENV: integration

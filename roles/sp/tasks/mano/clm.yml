@@ -3,7 +3,7 @@
 - name: MANO Cloud Service Life-cycle Management (CLM) (Docker container)
   docker_container:
     name: cloudservicelifecyclemanagement
-    image: "tdierich/cloudservicelifecyclemanagement:{{ sp_ver }}"
+    image: "tdierich/cloudservicelifecyclemanagement"
     env:
       url_gk_api: "http://son-gtkapi:5000/api/v2/"
       url_cosr_repository: "http://son-catalogue-repos:4011/records/cosr/"
