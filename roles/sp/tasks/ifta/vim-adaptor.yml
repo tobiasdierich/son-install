@@ -18,4 +18,6 @@
       - name: "{{ docker_network_name }}"
         aliases:
           - son-sp-infrabstract
+    volumes:
+      - terraform_data:/root/terraform_data
 
