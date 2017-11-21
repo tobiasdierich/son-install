@@ -6,7 +6,7 @@
 - name: deploying GATEKEEPER BSS (as a Docker container)
   docker_container:
     name: son-bss
-    image: "sonatanfv/son-yo-gen-bss:{{ sp_ver }}"
+    image: "tdierich/son-yo-gen-bss"
     command: "grunt serve:integration --gkApiUrl=http://{{ fqdn }}/api/v2 --hostname=0.0.0.0 --userManagementEnabled=true --licenseManagementEnabled=true --debug"
     state: started
     network_mode: bridge
