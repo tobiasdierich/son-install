@@ -42,7 +42,7 @@
   - name: MONIT InfluxDB - removing Docker containers
     docker_container:
       name: son-monitor-influxdb
-      image: sonatanfv/son-monitor-influxdb
+      image: tdierich/son-monitor-influxdb
       state: absent
 
   - wait_for: host=0.0.0.0 port=8086 timeout=120 delay=10 state=drained
