@@ -1,7 +1,7 @@
 - name: MONIT PROMETHEUS - running Docker containers
   docker_container:
     name: son-monitor-prometheus
-    image: "tdierich/son-monitor-prometheus:dev"
+    image: "tdierich/son-monitor-prometheus"
     restart_policy: "always"
     state: started
     env:
